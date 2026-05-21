@@ -11,7 +11,7 @@ jobs:
   build:
     strategy:
       matrix:
-        platform: [x64, ARM64]
+        platform: [x64]
         package: [CMC_GITHUB_RELEASE, CMC_DEV_RELEASE, CMC_ANY]
 
     runs-on: windows-2025-vs2026
